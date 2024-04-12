@@ -1,0 +1,1987 @@
+/*OPEN IN MICROSOFT EDGE*/
+
+
+/* Style for the fixed header container */
+.header-container {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Style for the fixed header */
+#fixed-header {
+    width: 100%;
+   padding: -4% 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: top 0.3s;
+}
+
+/* Style for the dropdown options */
+.dropdown-options {
+    position: fixed;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: none;
+    padding: 5px 0;
+    margin: 0;
+    list-style-type: none;
+    z-index: 1001;
+}
+
+.dropdown-options ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+.dropdown-options li {
+    padding: 10px 20px;
+}
+
+.dropdown-options li:hover {
+    background-color: #f5f5f5;
+}
+
+/* Other styles (such as .highlight, .highlight1, etc.) remain the same */
+
+/* Style for the main content area */
+.content {
+    margin-top: 50px; /* Adjust this based on your header height */
+    /* Add padding or other styles as needed */
+}
+
+.custom-paragraph{
+    background-color: rgba(19, 5, 34, 0.97);
+    width: 100%;
+    height: 75px;
+}
+.logo0{
+    position: fixed;
+    top: 2%;
+    left: 13%;
+}
+/* Dropdown Button */
+.music0 {
+    flex: 1%;
+    left: 25%;
+    top: 32%;
+    font-family:sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff; /* Button text color */
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 3px;
+    z-index: 2; /* Set higher z-index for hr */
+    
+}
+
+.music0:hover {
+    background-color: rgba(53, 199, 239, 0.945);
+    color: #000000;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.music0 .dropdown-content {
+    background-color: transparent;
+    color: #0a7deff6;
+    display: none; /* Hidden by default */
+    font-size: 19px;
+    border-spacing: 1;
+    border-spacing: -16;
+    height: 19px;
+    font-family: sans-serif;
+    align-content: center;
+    height: 230px;
+    padding: 28px 0px;
+    z-index: 3; /* Set higher z-index for hr */
+    
+    
+}
+
+/* Show the Dropdown Menu on Hover */
+.music0:hover .dropdown-content {
+    display: block;
+    
+    
+}
+
+/* Links inside the Dropdown and "Music Distribution" text */
+.music0 .dropdown-content p {
+    
+    color: #050606dc;
+    z-index: 3; 
+    height: 17px;
+    display: block;
+    font-size: 15px;
+    line-height: .52;
+    padding: 15px 2px;
+    text-underline-offset: 3px;
+    transition: background-color 0.3s, color 0.3s, text-decoration 0.3s;
+}
+
+.music0 .dropdown-content p:hover {
+   
+    background-color: #2a6fb082; /* Hover background color */
+    column-fill: balance;
+    color: #040404e0; /* Hover link text color */
+    text-decoration: underline; /* Add underline on hover */
+    z-index: 33; /* Set higher z-index for hr */
+}
+.music0 .music-title:hover {
+    text-decoration: underline;
+}
+
+.music0 .dropdown-content hr {
+    border: .5;
+    height: -1px;
+    background-color: #ccc;
+    border: none;
+    border-top: 1px solid #125aa2ab; /* Color of hr */
+    margin: 0px 0; /* Adjusted margin */
+    width: 100%;
+    z-index: 3; /* Set higher z-index for hr */
+  }
+.custom-paragraph0 {
+    font-family: Arial, sans-serif;
+    padding: 18px;
+    font-size: 14px;
+    position: fixed;
+    left: 36.4%;
+    top: 2%;
+
+}
+
+
+.highlight {
+    color: #fafbfc; /* Default color */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition */
+}
+
+.highlight:hover {
+    color:rgb(0, 179, 255); /* New color on hover */
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Dropdown Button */
+.custom-paragraph01 {
+    left: 44.7%;
+    position: fixed;
+    top: 3%;
+    font-family: sans-serif;
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff; /* Button text color */
+    cursor: pointer;
+    z-index: 2;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.custom-paragraph01:hover {
+    background-color: rgba(53, 199, 239, 0.945);
+    color: #000000;
+}
+
+
+
+.custom-paragraph01 .dropdown-content1 {
+    background-color: transparent;
+    color: #0a7deff6;
+    display: none; /* Hidden by default */
+    font-size: 19px;
+    border-spacing: 1;
+    border-spacing: -16;
+    height: 19px;
+    z-index: 3;
+    font-family: sans-serif;
+    align-content: center;
+    height: 530px;
+    padding: 14px 0px;
+}
+
+/* Show the Dropdown Menu on Hover */
+.custom-paragraph01:hover .dropdown-content1 {
+    display: block;
+}
+
+/* Links inside the Dropdown and "Music Distribution" text */
+.custom-paragraph01 .dropdown-content1 p {
+    color: #050606dc;
+    z-index: 3;
+    display: block;
+    height: 20px;
+    font-size: 80%;
+    line-height: 1.1;
+    padding: 10px 17px; /* Adjusted padding */
+    margin: 4px 0; /* Adjusted margin */
+    text-underline-offset: 3px;
+    transition: background-color 0.3s, color 0.3s, text-decoration 0.9s;
+}
+
+.custom-paragraph01 .dropdown-content1 p:hover {
+    z-index: 3;
+    background-color: #2a6fb082; /* Hover background color */
+    color: #040404e0; /* Hover link text color */
+    text-decoration: underline; /* Add underline on hover */
+}
+
+.custom-paragraph01 .music2-title:hover {
+    text-decoration: underline;
+}
+
+.custom-paragraph01 .dropdown-content1 hr {
+    border: none;
+    z-index: 3;
+    border-top: 1px solid #125aa2ab; /* Color of hr */
+    margin: 1px 0; /* Adjusted margin */
+    width: 100%;
+}
+
+/* Adjust hover effect for hr elements */
+.custom-paragraph01 .dropdown-content1 hr:hover {
+    border-top: 1px solid #040404e0; /* Color of hr on hover */
+}
+
+/* Change color for the entire dropdown content when hovering "Promote Your Music" */
+.custom-paragraph01 .dropdown-content1 p.promote-music:hover,
+.custom-paragraph01 .dropdown-content1 p.promote-music:hover ~ p {
+    z-index: 3;
+    background-color: #2a6fb082; /* Hover background color */
+    max-height: max-content;
+    color: #040404e0; /* Hover link text color */
+    text-decoration: underline; /* Add underline on hover */
+}
+.images{
+    position: absolute;
+    align-content: end;
+    left: 85%;
+    top: 9%;
+   
+}
+.images1{
+    position: absolute;
+    align-content: end;
+    left: 85%;
+    top: 18%;
+}
+.images2{
+    position: absolute;
+    align-content: end;
+    left: 85%;
+    top: 26%;
+}
+.images3{
+    position: absolute;
+    align-content: end;
+    left: 85%;
+    top: 34%;
+}
+.images4{
+    position: absolute;
+    align-content: end;
+    left: 85%;
+    top: 51%;
+}
+.images5{
+    position: absolute;
+    align-content: end;
+    left: 85%;
+    top: 59%;
+}
+.images6{
+    position: absolute;
+    align-content: end;
+    left: 85%;
+    top: 75%;
+}
+.images7{
+    position: absolute;
+    align-content: end;
+    left: 85%;
+    top: 84%;
+}
+
+.custom-paragraph02 {
+    font-family: Arial, sans-serif;
+    padding: 18px;
+    font-size: 15px;
+    position: fixed;
+    z-index: 9999;
+    left: 57%;
+    top: 2%;
+
+}
+.highlight02 {
+    color: #fafbfc; /* Default color */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition */
+}
+
+.highlight02:hover {
+    color:rgb(0, 179, 255); /* New color on hover */
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.custom-paragraph03 {
+    font-family: Arial, sans-serif;
+    padding: 18px;
+    font-size: 15px;
+    position: fixed;
+    left: 63.6%;
+    z-index: 9999;
+    top: 2%;
+
+}
+.highlight03 {
+    color: #fafbfc; /* Default color */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition */
+}
+
+.highlight03:hover {
+    color:rgb(0, 179, 255); /* New color on hover */
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.custom-paragraph04 {
+    font-family: Arial, sans-serif;
+    padding: 18px;
+    font-size: 15px;
+    flex: 1;
+    z-index: 9999;
+    position: fixed;
+    left: 69.6%;
+    top: 2%;
+
+}
+.highligh04 {
+    color: #fafbfc; /* Default color */
+    text-decoration: none; /* Remove underline by default */
+    transition: color 0.3s, text-decoration 0.3s; /* Smooth transition */
+}
+
+.highligh04:hover {
+    color:rgb(0, 179, 255); /* New color on hover */
+    text-decoration: underline; /* Underline on hover */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+.get-started-btn {
+    position: fixed;
+    background-color: rgb(234, 179, 29);
+    color: black;
+    z-index: 1;
+    flex: 1px;
+    border: none;
+    top: 2.4%;
+    left: 76%;
+    padding: 14px 18px;
+    font-size: 16px;
+    border-radius: 5%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    z-index: 9999;
+}
+
+.get-started-btn:hover,
+.get-started-btn:focus {
+    background-color: red;
+}
+.image-dropdown {
+    position: absolute;
+    top: 4%;
+    left: 87.9%;
+    display: inline-block;
+}
+
+.image-dropdown-container {
+    position: relative;
+    display: inline-block;
+
+}
+
+.globe-image {
+    position: fixed;
+    top: 3.5%;
+    left: 87%;
+    width: 28px; /* Adjusted size */
+    height: 28px; /* Adjusted size */
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.dropdown-arrow {
+    position: fixed;
+    top: 4.6%;
+    right: 139px; /* Adjust distance from image */
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid #f8f7f7; /* Color of the arrow */
+    transform: translateY(-50%);
+    cursor: pointer;
+    z-index: 9999;
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10999;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.dropdown-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 9999;
+}
+
+.dropdown-options ul li {
+    padding: 6px 0;
+    z-index: 9999;
+}
+
+/* Show options when hovering over image or arrow */
+.image-dropdown:hover .dropdown-options,
+.image-dropdown-container:hover .dropdown-options {
+    display: block;
+    z-index: 9999;
+    top: 190%;
+    width: 90px;
+    background-color: rgb(40, 175, 234);
+}
+body, html {
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.video-background {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    overflow: hidden;
+    z-index: -1; /* Pushes the video to the back */
+}
+.fullscreen-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    object-fit: cover; /* Ensures video covers the entire container */
+}
+.background-color7-afterthevideo{
+    position: absolute;
+    top: 76%;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+    height: 107%;
+ }
+
+.content {
+    position: absolute;
+    top: 35%;
+    flex: 1;
+    text-align: left;
+    left: 34.5%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    color: white;
+    line-height: 9%;
+    font-weight: bolder;
+    font-family: Arial, sans-serif;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Max width for responsiveness */
+    padding: 30px; /* Add padding for better readability */
+    border-radius: 10px; /* Rounded corners for the content */
+}
+
+.content h1 {
+    text-align: left;
+    color: rgba(255, 186, 12, 0.862);
+    font-size: 3.0em;
+    top: 40%;
+    
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.content h2 {
+    text-align: left;
+    left: 27.6%;
+    line-height: .8;
+    color: rgba(255, 186, 12, 0.862);
+    font-size: 2.9em;
+    font-weight: bolder;
+    margin-bottom: 29px;
+}
+
+.content p {
+    text-align: left;
+    font-family: Century Schoolbook;
+    line-height: 1.5;
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0;
+}
+.custom-paragraph05 {
+    position: absolute;
+    font-family: Century Schoolbook;
+    color: white;
+    left: 14%;
+    top: 49%;
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+/* Reset default button styles */
+.btn {
+    position: absolute;
+    top: 57%;
+    left: 14.5%;
+    display: inline-block;
+    padding: 18px 40px;
+    background-color: #57cff4;
+    color: #010202;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family:  'Trebuchet MS';
+    font-size: 23px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Change color on hover */
+.btn:hover {
+    background-color: #f3291be8;
+}
+
+
+.get-started-btn1:hover,
+.get-started-btn1:focus {
+    background-color: rgba(249, 10, 10, 0.968);
+}
+.custom-paragraph06{
+    position: absolute;
+    top: 68%;
+    font-size: 65px;
+    left: 23%;
+    color: #202021;
+    font-family: Calibri;
+}
+.custom-paragraph07{
+    position: absolute;
+    top: 97%;
+    font-family:  Proxima Nova;
+    font-size: 29px;
+    left: 17.5%;
+    color: #0a0a0ad7;
+}
+.logo-music{
+    position: absolute;
+    top: 119%;
+    left: 23%;
+}
+.logo-music1{
+    position: absolute;
+    top: 119%;
+    left: 35.6%;
+
+}
+.logo-music2{
+    position: absolute;
+    top: 118%;
+    left: 53%;
+
+}
+.logo-music3{
+    position: absolute;
+    top: 120%;
+    left: 71.4%;
+
+}
+.logo-music4{
+    position: absolute;
+    top: 136%;
+    left: 19%;
+
+}
+.logo-music5{
+    position: absolute;
+    top: 133.5%;
+    left: 35.8%;
+
+}
+.logo-music6{
+    position: absolute;
+    top: 132%;
+    left: 53%;
+
+}
+.logo-music7{
+    position: absolute;
+    top: 133%;
+    left: 73%;
+
+}
+.box {
+    position: absolute;
+    left: 36.6%;
+    text-align: center;
+    top: 147%;
+    width: 403px;
+    height: 58px;
+    font-size: 20px;
+    background-color: #21c7dde7;
+}
+.btn1 {
+    position: absolute;
+    top: 147%;
+    left: 37%;
+    display: inline-block;
+    padding: 20px 96.7px;
+    background-color: #57cff4;
+    color: #010202;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family:  'Trebuchet MS';
+    font-size: 23px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Change color on hover */
+.btn1:hover {
+    background-color: #bd9e01;
+}
+
+
+.get-started-btn1:hover,
+.get-started-btn1:focus {
+    background-color: rgba(249, 10, 10, 0.968);
+}
+
+
+.container {
+    
+    text-align: center; /* Center align the text */
+    margin-top: 1190px; /* Adjust margin as needed */
+}
+
+.hover-underline {
+    position: relative;
+}
+
+.hover-underline::after {
+    content: '';
+    position: absolute;
+    left: 50%; /* Position it in the center */
+    bottom: -5px; /* Adjust this value to change underline position */
+    transform: translateX(-50%); /* Center it horizontally */
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+
+.hover-underline:hover::after {
+    background-color: #353434;
+}
+
+.hover-underline:hover {
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.images8{
+    position: absolute;
+    top: 169%;
+    
+}
+.custom-paragraph08{
+    position: absolute;
+    top: 176%;
+    left: 28%;
+    font-size: 52px;
+    color: #fafbfc;
+}
+.images9{
+    position: absolute;
+    top: 197%;
+    left: 39%;
+    
+}
+.custom-paragraph09{
+    position: absolute;
+    top: 197%;
+    left:50.5% ;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(241, 97, 86);
+}
+.images10{
+    position: absolute;
+    top: 217%;
+    left: 20%;
+    
+}
+.custom-paragraph10{
+    position: absolute;
+    top: 215%;
+    left: 23.8%;
+    font-size: 26px;
+    color: #ffffff;
+}
+.images11{
+    position: absolute;
+    top: 223.5%;
+    left: 33%;
+    
+}
+.custom-paragraph11{
+    position: absolute;
+    top: 221.5%;
+    left: 36%;
+    font-size: 24.4px;
+    color: #ffffff;
+}
+.images12{
+    position: absolute;
+    top: 223.5%;
+    left: 47.9%;
+    
+}
+.custom-paragraph12{
+    position: absolute;
+    top: 221.6%;
+    left: 52%;
+    font-size: 26px;
+    color: #ffffff;
+}
+.btn2 {
+    position: absolute;
+    top: 130%;
+    margin-left: -60%;
+    display: inline-block;
+    padding: 19px 64.4px;
+    font-weight: bold;
+    background-color: rgb(243, 164, 190);
+    color: #010202;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family:  'Trebuchet MS';
+    font-size: 23px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+/* Change color on hover */
+.btn2:hover {
+    background-color: rgb(123, 209, 243);
+}
+
+
+.get-started-btn2:hover,
+.get-started-btn2:focus {
+    background-color: rgba(249, 10, 10, 0.968);
+}
+
+
+
+.images13 {
+    background-image: url('images/LeadCapture_BG_yellow-1280x750.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Fix the background image */
+    position: absolute;
+    top: 249.8%;
+    left: 0;
+    width: 100%;
+    height: 45%;
+    z-index: -1; /* Ensure background image is behind text */
+}
+  .content1 {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  }
+  .text-overlay {
+    position: absolute;
+    top: 300%; /* Adjust position as needed */
+    left: 50%; /* Adjust position as needed */
+    transform: translate(-50%, -50%); /* Center the text */
+    font-family:arial ;
+    font-size: 40px;
+    color: white; /* Text color */
+    text-align: center;
+  }
+  .text12{
+    position: absolute;
+    top: 259%;
+    left: 27%;
+    font-size: 250%;
+    font-family:arial;
+    color: white;
+  }
+  .button {
+    position: absolute;
+    top: 280%;
+    left: 34%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button input[type="text"] {
+    
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    width: 350px;
+    outline: none;
+  }
+  
+  .button button {
+    background-color: #0e8cb3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 9px 0;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    
+  }
+  
+  .button button:hover {
+    background-color: red;
+  }
+  
+  .background-color1{
+  position: absolute;
+  top: 294.8%;
+  left: 0%;
+  background-color: #3abbe2;
+  width: 100%;
+  height: 90%;
+  margin: 0%;
+  }
+  .text13{
+    position: absolute;
+    top: 300%;
+    left: 21%;
+    font-family:arial;
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    margin: 0%;
+  }
+  .text14{
+    position: absolute;
+    top: 313%;
+    left: 25%;
+    line-height: 1.5;
+    font-family:Merriweather;
+    font-size: 26.4px;
+    color: rgb(43, 40, 40);
+    margin: 0%;
+  }
+  .images14 {
+    position: relative;
+    top: 175%;
+    left: 15%;
+    display: inline-block;
+    font-family: Arial;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.images14 img {
+    display: block;
+    width: 106px;
+    height: 90px;
+    margin: 0 auto; /* Center the image */
+}
+
+.images14 p {
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease, text-decoration-color 0.3s ease; /* Transition properties */
+    text-decoration: none; /* Remove default underline */
+}
+
+.images14:hover {
+    background-color: rgba(114, 219, 251, 0.5); /* Semi-transparent black on hover */
+}
+
+.images14:hover p {
+    background-color: rgba(100, 185, 234, 0.7); /* Semi-transparent white on hover */
+    color: rgb(98, 207, 244); /* Light blue text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration-color: #0e8cb3; /* Light blue underline color on hover */
+    border-radius: 50%;
+}
+.images15 {
+    position: relative;
+    top: 175%;
+    left: 28%;
+    display: inline-block;
+    font-family: Arial;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.images15 img {
+    display: block;
+    width: 106px;
+    height: 90px;
+    margin: 0 auto; /* Center the image */
+}
+
+.images15 p {
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease, text-decoration-color 0.3s ease; /* Transition properties */
+    text-decoration: none; /* Remove default underline */
+}
+
+.images15:hover {
+    background-color: rgba(114, 219, 251, 0.5); /* Semi-transparent black on hover */
+}
+
+.images15:hover p {
+    background-color: rgba(100, 185, 234, 0.7); /* Semi-transparent white on hover */
+    color: rgb(98, 207, 244); /* Light blue text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration-color: #0e8cb3; /* Light blue underline color on hover */
+    border-radius: 50%;
+}
+.images16 {
+    position: relative;
+    top: 175%;
+    left: 38%;
+    display: inline-block;
+    font-family: Arial;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.images16 img {
+    display: block;
+    width: 106px;
+    height: 90px;
+    margin: 0 auto; /* Center the image */
+}
+
+.images16 p {
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease, text-decoration-color 0.3s ease; /* Transition properties */
+    text-decoration: none; /* Remove default underline */
+}
+
+.images16:hover {
+    background-color: rgba(114, 219, 251, 0.5); /* Semi-transparent black on hover */
+}
+
+.images16:hover p {
+    background-color: rgba(100, 185, 234, 0.7); /* Semi-transparent white on hover */
+    color: rgb(98, 207, 244); /* Light blue text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration-color: #0e8cb3; /* Light blue underline color on hover */
+    border-radius: 50%;
+}
+.images17 {
+    position: relative;
+    top: 175%;
+    left: 47%;
+    display: inline-block;
+    font-family: Arial;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.images17 img {
+    display: block;
+    width: 106px;
+    height: 90px;
+    margin: 0 auto; /* Center the image */
+}
+
+.images17 p {
+    margin: 0;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    background-color: transparent;
+    transition: background-color 0.3s ease, color 0.3s ease, text-decoration-color 0.3s ease; /* Transition properties */
+    text-decoration: none; /* Remove default underline */
+}
+
+.images17:hover {
+    background-color: rgba(114, 219, 251, 0.5); /* Semi-transparent black on hover */
+}
+
+.images17:hover p {
+    background-color: rgba(100, 185, 234, 0.7); /* Semi-transparent white on hover */
+    color: rgb(98, 207, 244); /* Light blue text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+    text-decoration-color: #0e8cb3; /* Light blue underline color on hover */
+    border-radius: 50%;
+}
+.btn0 {
+    position: absolute;
+    top: 368%;
+    left: 100%;
+    margin-left: -60%;
+    display: inline-block;
+    padding: 19px 87px;
+    font-weight: bold;
+    background-color: rgb(241, 165, 0);
+    color: #010202;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    font-size: 23px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+}
+
+/* Change color on hover */
+.btn0:hover {
+    background-color: rgb(18, 20, 25);
+    color: rgb(255, 255, 255); /* Change text color on hover */
+}
+
+.get-started-btn0:hover,
+.get-started-btn0:focus {
+    background-color: rgba(242, 229, 229, 0.968);
+    color: white; /* Change text color on hover/focus */
+}
+.background{
+    position: absolute;
+    top: 384.7%;
+    }
+    .text15{
+        position: absolute;
+        top: 389%;
+        left: 25%;
+        line-height: 1.5;
+        font-family:Arial;
+        font-size: 48px;
+        font-weight: bold;
+        color: rgb(255, 255, 255);
+        margin: 0%;
+      }
+    .text16{
+        position: absolute;
+        top: 79%;
+        left: 20%;
+        font-family:Arial;
+        font-weight: bold;
+        font-size: 25px;
+         color: rgb(255, 255, 255);
+        margin: 0%;
+      }
+      .text17 {
+        position: absolute;
+        top: 106%;
+        left: -4%;
+        font-family: Merriweather;
+        font-size: 19px;
+        color: rgb(255, 255, 255);
+        
+    }
+    .images18{
+        position: absolute;
+        top: 180%;
+        left: 13%;
+        
+       
+    }
+    .images19 {
+        position: absolute;
+        top: 174%;
+        left: 57%;
+        
+       
+    }
+    .text18 {
+        position: absolute;
+        top: 235%;
+        left: -4%;
+        font-family: Merriweather;
+        font-size: 19px;
+        color: rgb(255, 255, 255);
+        
+    }
+    .text19 {
+        position: absolute;
+        top: 259%;
+        left: -7%;
+        font-weight: 200;
+        font-family: Merriweather;
+        font-style: inherit;
+        font-size: 21px;
+        line-height: -6%;
+        color: rgb(255, 255, 255);
+        
+    }
+    .text20 {
+        position: absolute;
+        top: 235%;
+        left: 53%;
+        font-family: Merriweather;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        
+    }
+    .text21 {
+        position: absolute;
+        top: 259%;
+        left: 51%;
+        font-weight: 200;
+        font-family: Merriweather;
+        font-style: inherit;
+        font-size: 21px;
+        line-height: -6%;
+        color: rgb(255, 255, 255);
+        
+    }
+    /* Define the default styles */
+.learn-more {
+    position: absolute;
+    top: 325%;
+    left: -3%;
+    font-size: 20px;
+    font-family: Merriweather;
+    color: rgb(244, 197, 27); /* Yellow text color */
+    text-decoration: underline; /* Underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Change color on hover */
+.learn-more:hover {
+    color: white; /* White text color on hover */
+}
+.learn-more1 {
+    position: absolute;
+    top: 326%;
+    left: 55%;
+    font-size: 20px;
+    font-family: Merriweather;
+    color: rgb(244, 197, 27); /* Yellow text color */
+    text-decoration: underline; /* Underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+/* Change color on hover */
+.learn-more1:hover {
+    color: white; /* White text color on hover */
+}
+.btn01 {
+    position: absolute;
+    top: 354%;
+    left: 92%;
+    margin-left: -60%;
+    display: inline-block;
+    padding: 13px 79px;
+    font-weight: bold;
+    background-color: rgb(63, 204, 243);
+    color: #010202;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS';
+    font-size: 23px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+}
+
+/* Change color on hover */
+.btn01:hover {
+    background-color: rgb(255, 153, 0);
+    color: rgb(0, 0, 0); /* Change text color on hover */
+}
+
+.get-started-btn01:hover,
+.get-started-btn01:focus {
+    background-color: rgba(242, 229, 229, 0.968);
+    color: white; /* Change text color on hover/focus */
+}
+.background-color2{
+    position: absolute;
+    top: 399%;
+    left: -49%;
+    background-color: rgba(249, 179, 27, 0.878);
+    width: 194.5%;
+    height: 530%;
+    }
+    .text22 {
+        position: absolute;
+        top: 399%;
+        left: 5%;
+        font-weight: 200;
+        font-family: Arial;
+        font-weight: bold;
+        font-style: inherit;
+        font-size: 39px;
+        line-height: -6%;
+        color: rgb(0, 4, 21);
+        
+    }
+    .images20{
+        position: absolute;
+        top: 450%;
+        left: 5.5%;
+    }
+    .images21{
+        position: absolute;
+        top: 450%;
+        left: 63%;
+    }
+    .text23 {
+        position: absolute;
+        top: 555%;
+        left: 3%;
+        font-weight: 200;
+        font-family: Merriweather;
+        font-style: inherit;
+        font-size: 20px;
+        line-height: 35%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        
+    }
+    .text24 {
+        position: absolute;
+        top: 607%;
+        left: 13%;
+        font-weight: 200;
+        font-family: Arial,sans-serif;
+        font-style: inherit;
+        font-size: 16px;
+        line-height: 5%;
+        color: rgb(59, 55, 55);
+        
+    }
+    .text25 {
+        position: absolute;
+        top: 606%;
+        left: 18%;
+        font-weight: 200;
+        font-family: Arial,sans-serif;
+        font-style: inherit;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        
+    }
+    .text26 {
+        position: absolute;
+        top: 555%;
+        left: 57%;
+        font-weight: 200;
+        font-family: Merriweather;
+        font-style: inherit;
+        font-size: 20px;
+        line-height: 35%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+        
+    }
+    .text27 {
+        position: absolute;
+        top: 617%;
+        left: 72%;
+        font-weight: 200;
+        font-family: Arial,sans-serif;
+        font-style: inherit;
+        font-size: 17px;
+        line-height: 5%;
+        color: rgb(59, 55, 55);
+        
+    }
+    .text28 {
+        position: absolute;
+        top: 619%;
+        left: 77%;
+        font-weight: 200;
+        font-family: Arial,sans-serif;
+        font-style: inherit;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        
+    }
+    .images22{
+        position: absolute;
+        top: 667%;
+        left: 5.5%;
+    }
+    .images23{
+        position: absolute;
+        top: 667%;
+        left: 63%;
+    }
+    .text29{
+        position: absolute;
+        top: 787%;
+        left: 3%;
+        font-weight: 100;
+        font-family:Merriweather;
+        font-style: inherit;
+        font-size: 21px;
+        line-height: 9%;
+        color: rgb(18, 17, 17);
+    }
+    .text30 {
+        position: absolute;
+        top: 873%;
+        left: 12%;
+        font-weight: 300;
+        font-family: Arial,sans-serif;
+        font-style: inherit;
+        font-size: 17px;
+        line-height: 5%;
+        color: rgb(51, 51, 51);
+        
+    }
+    .text31 {
+        position: absolute;
+        top: 874%;
+        left: 9%;
+        font-weight: 200;
+        font-family: Arial,sans-serif;
+        font-style: inherit;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        
+    }
+    .text32{
+        position: absolute;
+        top: 787%;
+        left: 59%;
+        font-weight: 180;
+        font-family:Merriweather;
+        font-style: inherit;
+        font-size: 20px;
+        line-height: 30%;
+        color: rgb(18, 17, 17);
+    }
+    .text33{
+        position: absolute;
+        top: 857%;
+        left: 66%;
+        font-weight: bold;
+        font-family:Merriweather;
+        font-style: inherit;
+        font-size: 15px;
+        line-height: 9%;
+        color: rgb(51, 51, 51);;
+    }
+    .text34 {
+        position: absolute;
+        top: 859%;
+        left: 65%;
+        font-weight: 200;
+        font-family: Arial,sans-serif;
+        font-style: inherit;
+        font-size: 16px;
+        color: rgb(0, 0, 0);
+        
+    }
+    .background-color3{
+        position: absolute;
+        top: 928%;
+        left: -49%;
+        background-color: rgba(11, 3, 20, 0.97);
+        width: 194.5%;
+        height: 217%;
+        }
+    .text35 {
+    position: absolute;
+    top: 929%;
+    left: 10%;
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+            
+    }
+    .images24{
+        position: absolute;
+        top: 977%;
+        left: -12%;
+    }
+    
+    
+    .images25{
+    position: absolute;
+    top: 977%;
+    left: 28%;
+    }
+   
+    .images26{
+    position: absolute;
+    top: 980%;
+    left: 69%;
+    }
+    
+    .text42 {
+        position: absolute;
+        top: 1010%;
+        left: -9%;
+        font-weight: 40%;
+        font-family: Arial;
+        font-size: 15px;
+        color: rgba(65, 189, 255, 0.895);
+    }
+    .text43 {
+        position: absolute;
+        top: 1027%;
+        left: -13.5%;
+        font-weight: 40%;
+        font-family: sans-serif;
+        line-height: 176%;
+        font-size: 14.2px;
+        color: rgba(255, 255, 255, 0.895);
+    }
+    .text44 {
+        position: absolute;
+        top: 1010%;
+        left: 31%;
+        font-weight: 40%;
+        font-family: Arial;
+        font-size: 15px;
+        color: rgba(65, 189, 255, 0.895);
+    }
+    .text45 {
+        position: absolute;
+        top: 1027%;
+        left: 30%;
+        font-weight: 40%;
+        font-family: sans-serif;
+        line-height: 176%;
+        font-size: 14.2px;
+        color: rgba(255, 255, 255, 0.895);
+    }
+ 
+         .text46 {
+        position: absolute;
+        top: 1010%;
+        left: 71%;
+        font-weight: 40%;
+        font-family: Arial;
+        font-size: 15px;
+        color: rgba(65, 189, 255, 0.895);
+    }
+    .text47 {
+        position: absolute;
+        top: 1027%;
+        left: 70%;
+        font-weight: 40%;
+        font-family: sans-serif;
+        line-height: 176%;
+        font-size: 14.2px;
+        color: rgba(255, 255, 255, 0.895);
+    }
+    .btn02 {
+        position: absolute;
+        top: 1076%;
+        left: 51%;
+        margin-left: -60%;
+        display: inline-block;
+        padding: 8px 22px;
+        font-weight: bold;
+        background-color: rgb(23, 179, 223);
+        color: #010202;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: 'Trebuchet MS';
+        font-size: 17px;
+        text-align: center;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+    }
+    
+    /* Change color on hover */
+    .btn02:hover {
+        background-color: rgb(255, 153, 0);
+        color: rgb(0, 0, 0); /* Change text color on hover */
+    }
+    
+    .get-started-btn02:hover,
+    .get-started-btn02:focus {
+        background-color: rgba(242, 229, 229, 0.968);
+        color: white; /* Change text color on hover/focus */
+    }
+
+    .btn03 {
+        position: absolute;
+        top: 1084%;
+        left: 94%;
+        margin-left: -60%;
+        display: inline-block;
+        padding: 8px 26px;
+        font-weight: bold;
+        background-color: rgb(23, 179, 223);
+        color: #010202;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: 'Trebuchet MS';
+        font-size: 17px;
+        text-align: center;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+    }
+    
+    /* Change color on hover */
+    .btn03:hover {
+        background-color: rgb(255, 153, 0);
+        color: rgb(0, 0, 0); /* Change text color on hover */
+    }
+    
+    .get-started-btn03:hover,
+    .get-started-btn03:focus {
+        background-color: rgba(242, 229, 229, 0.968);
+        color: white; /* Change text color on hover/focus */
+    }
+
+    .btn04 {
+        position: absolute;
+        top: 1076%;
+        left: 135.2%;
+        margin-left: -60%;
+        display: inline-block;
+        padding: 8px 26px;
+        font-weight: bold;
+        background-color: rgb(23, 179, 223);
+        color: #010202;
+        text-decoration: none;
+        border-radius: 5px;
+        font-family: 'Trebuchet MS';
+        font-size: 17px;
+        text-align: center;
+        transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+    }
+    
+    /* Change color on hover */
+    .btn04:hover {
+        background-color: rgb(255, 153, 0);
+        color: rgb(0, 0, 0); /* Change text color on hover */
+    }
+    
+    .get-started-btn04:hover,
+    .get-started-btn04:focus {
+        background-color: rgba(242, 229, 229, 0.968);
+        color: white; /* Change text color on hover/focus */
+    }
+    .background-color4{
+        position: absolute;
+        top: 1141%;
+        left: -49%;
+        background-color: #40BCD0;
+        width: 194.5%;
+        height: 37%;
+     }
+    
+    
+    .images27 {
+        top: 1147.9%;
+        left: 10.6%;
+        width: 50px;
+        height: 50px;
+        border-radius: 90%;
+        border: 2px solid #000;
+        overflow: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        transition: background-color 0.5s;
+    }
+    
+    .circle-image {
+        width: 55%; /* Make the image fill the circle */
+        height: auto;
+        transition: filter 0.3s;
+    }
+    
+    .images27:hover {
+        background-color: #000; /* Change background color to black on hover */
+    }
+    
+    .images27:hover .circle-image {
+        filter: brightness(0) invert(1); /* Change image color to blue and invert it on hover */
+    }
+    
+    .images28 {
+        top: 1147.9%;
+        left: 29%;
+        width: 50px;
+        height: 50px;
+        border-radius: 90%;
+        border: 2px solid #000;
+        overflow: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        transition: background-color 0.5s;
+    }
+    
+    .circle-image1 {
+        width: 55%; /* Make the image fill the circle */
+        height: auto;
+        transition: filter 0.3s;
+    }
+    
+    .images28:hover {
+        background-color: #000; /* Change background color to black on hover */
+    }
+    
+    .images28:hover .circle-image1 {
+        filter: brightness(0) invert(1); /* Change image color to blue and invert it on hover */
+    }
+
+    .images29 {
+        top: 1147.9%;
+        left: 46%;
+        width: 50px;
+        height: 50px;
+        border-radius: 90%;
+        border: 2px solid #000;
+        overflow: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        transition: background-color 0.5s;
+    }
+    
+    .circle-image2 {
+        width: 55%; /* Make the image fill the circle */
+        height: auto;
+        transition: filter 0.3s;
+    }
+    
+    .images29:hover {
+        background-color: #000; /* Change background color to black on hover */
+    }
+    
+    .images29:hover .circle-image2 {
+        filter: brightness(0) invert(1); /* Change image color to blue and invert it on hover */
+    }
+    .images30 {
+        top: 1147.9%;
+        left: 63%;
+        width: 50px;
+        height: 50px;
+        border-radius: 90%;
+        border: 2px solid #000;
+        overflow: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        transition: background-color 0.5s;
+    }
+    
+    .circle-image3 {
+        width: 55%; /* Make the image fill the circle */
+        height: auto;
+        transition: filter 0.3s;
+    }
+    
+    .images30:hover {
+        background-color: #000; /* Change background color to black on hover */
+    }
+    
+    .images30:hover .circle-image3 {
+        filter: brightness(0) invert(1); /* Change image color to blue and invert it on hover */
+    }
+
+    .images31 {
+        top: 1147.9%;
+        left: 82%;
+        width: 50px;
+        height: 50px;
+        border-radius: 90%;
+        border: 2px solid #000;
+        overflow: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        transition: background-color 0.5s;
+    }
+    
+    .circle-image4 {
+        width: 79%; /* Make the image fill the circle */
+        height: auto;
+        transition: filter 0.3s;
+    }
+   
+    .images31:hover {
+        background-color: #000; /* Change background color to black on hover */
+    }
+    
+    .images31:hover .circle-image4 {
+        filter: brightness(0) invert(1); /* Change image color to blue and invert it on hover */
+    }
+    
+    .background-color5{
+        position: fixed;
+        top: 1188%;
+        left: -49%;
+        background-color: #000000;
+        width: 194.5%;
+        height: 637%;
+        z-index: 1; /* Ensure it's above other content */
+    
+     }
+     .background-color6{
+        position: absolute;
+        top: 1178%;
+        left: -49%;
+        background-color: #55505095;
+        width: 194.5%;
+        height: 207%;
+        z-index: 9; /* Ensure it's above the black background */
+        height: 460px; /* Adjust height as needed */
+     }
+    
+     .images32 img {
+        position: absolute;
+        top: 1210%;
+        left: -32%;
+        z-index: 27;
+        transition: filter 0.8s ease-in-out;
+    }
+    
+    .images32 img:hover {
+        filter: white(100%);
+    }
+    .text48{
+        position: absolute;
+        left: -29%;
+        top: 1237%;
+        font-size: x-small;
+        font-weight: 100;
+        font-family: sans-serif;
+       color: #fff;
+       z-index: 34;
+
+    }
+    .text49{
+        position: absolute;
+        left: -5%;
+        top: 1207%;
+        font-size: 14px;
+        font-weight: bold;
+        font-family: sans-serif;
+       color: #fff;
+       z-index: 34;
+
+    }
+    .text50{
+        position: absolute;
+        left: 28%;
+        top: 1207%;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: sans-serif;
+       color: #fff;
+       z-index: 34;
+
+    }
+    .text51{
+        position: absolute;
+        left: 57%;
+        top: 1207%;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: sans-serif;
+       color: #fff;
+       z-index: 34;
+
+    }
+    .text52{
+        position: absolute;
+        left: 87%;
+        top: 1207%;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: sans-serif;
+       color: #fff;
+       z-index: 34;
+
+    }
+   
+    
+
+    .vertical-text {
+        position: absolute;
+        left: -5%;
+        top: 1221%;
+        display: flex;
+        flex-direction: column;
+        z-index: 9990;
+        line-height: .7;
+    }
+    
+    .item {
+        margin: 0; /* Adjusted margin for better alignment */
+    }
+    
+    .item a {
+        font-size: 13px;
+        text-decoration: none;
+        color: rgba(239, 164, 57, 0.849); /* Initial text color */
+        transition: color 0.3s, text-decoration 0.3s;
+    }
+    
+    .item a:hover {
+        color: white; /* Text color changes to white on hover */
+        text-decoration: underline;
+        
+    }
+    
+    .vertical-text1 {
+        position: absolute;
+        left: 28%;
+        top: 1221%;
+        display: flex;
+        flex-direction: column;
+        z-index: 9990;
+        line-height: .7;
+    }
+    
+    .item1 {
+        margin: 0; /* Adjusted margin for better alignment */
+    }
+    
+    .item1 a {
+        font-size: 13px;
+        text-decoration: none;
+        color: rgba(239, 164, 57, 0.849); /* Initial text color */
+        transition: color 0.3s, text-decoration 0.3s;
+    }
+    
+    .item1 a:hover {
+        color: white; /* Text color changes to white on hover */
+        text-decoration: underline;
+        
+    }
+    .vertical-text2 {
+        position: absolute;
+        left: 57%;
+        top: 1221%;
+        display: flex;
+        flex-direction: column;
+        z-index: 9990;
+        line-height: .7;
+    }
+    
+    .item2 {
+        margin: 0; /* Adjusted margin for better alignment */
+    }
+    
+    .item2 a {
+        font-size: 13px;
+        text-decoration: none;
+        color: rgba(239, 164, 57, 0.849); /* Initial text color */
+        transition: color 0.3s, text-decoration 0.3s;
+    }
+    
+    .item2 a:hover {
+        color: white; /* Text color changes to white on hover */
+        text-decoration: underline;
+        
+    }
+    .vertical-text3 {
+        position: absolute;
+        left: 87%;
+        top: 1221%;
+        display: flex;
+        flex-direction: column;
+        z-index: 9990;
+        line-height: .6;
+    }
+    
+    .item3 {
+        margin: 0; /* Adjusted margin for better alignment */
+    }
+    
+    .item3 a {
+        font-size: 11px;
+        text-decoration: none;
+        color: rgba(239, 164, 57, 0.849); /* Initial text color */
+        transition: color 0.3s, text-decoration 0.3s;
+    }
+    
+    
+    .item3 a:hover {
+        color: white; /* Text color changes to white on hover */
+        text-decoration: underline;
+        
+    }
+
+    .vertical-text4 {
+        position: absolute;
+        left:21%;
+        top: 1348%;
+        display: flex;
+        flex-direction: column;
+        z-index: 9990;
+        line-height: .6;
+    }
+    
+    .item4 {
+        margin: 0; /* Adjusted margin for better alignment */
+    }
+    
+    .item4 a {
+        font-size: 16px;
+        text-decoration: none;
+        color: rgba(57, 224, 239, 0.849); /* Initial text color */
+        transition: color 0.3s, text-decoration 0.3s;
+    }
+    
+    
+    .item4 a:hover {
+        color: rgba(57, 224, 239, 0.849); /* Text color changes to white on hover */
+        text-decoration: underline;
+        
+    }
